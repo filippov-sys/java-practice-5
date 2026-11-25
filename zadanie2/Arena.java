@@ -23,7 +23,7 @@ public class Arena {
             System.out.println("участников меньше 2");
             return;
         }
-        while (aliveMember >= 2) {
+        while (aliveMember > 2) {
             for (int i = 0; i < inArenaMembers.size(); i++) {
                 Character attacker = inArenaMembers.get(i);
                 if (!attacker.isAlive()) {
